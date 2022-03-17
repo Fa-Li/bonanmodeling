@@ -45,8 +45,8 @@ c = beta * omega_leaf * Kd;
 h = sqrt(b*b - c*c);
 u = (h - b - c) / (2 * h);
 v = (h + b + c) / (2 * h);
-g1 = (beta0 * Kb - b * beta0 - c * (1 - beta0)) * omega_leaf * Kb * swskyb / (h*h - Kb*Kb);
-g2 = ((1 - beta0) * Kb + c * beta0 + b * (1 - beta0)) * omega_leaf * Kb * swskyb / (h*h - Kb*Kb);
+g1 = (beta0 * Kb - b * beta0 - c * (1 - beta0)) * omega_leaf * Kb * swskyb / (h*h - Kb*Kb);%r1
+g2 = ((1 - beta0) * Kb + c * beta0 + b * (1 - beta0)) * omega_leaf * Kb * swskyb / (h*h - Kb*Kb);%r2
 
 % --- Exponential functions of leaf area
 
